@@ -1,10 +1,14 @@
-*
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
 
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: 250px auto auto auto;
     grid-gap: 10px;
     background-color: aquamarine;
     padding: 10px;
@@ -22,24 +26,67 @@
 border-radius: 25px;
 }
 
-.description > h1 {
+.Description {
+    padding: 0;
+}
+.Description > h1 {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
     text-align: left;
     margin: auto;
 }
 
-.social {
+.Description >h2 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin-left: 0px;
+}
+
+
+.Description > p {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin: 10px;
+}
+
+.Socials {
+
 
 }
 
-.skills {
+.Skills {
+padding: 0;
+}
+
+.Skills > h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.Skills > h2, h3, h4 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin: auto;
+    padding: 5px;
+}
+
+.Skills > ul {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin: 10px;
+}
+
+.table {
 
 }
 
-.table [
 
-]
 
 .courses {
 
