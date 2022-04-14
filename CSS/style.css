@@ -68,7 +68,7 @@ padding: 0;
 }
 
 .Skills > h2, h3, h4 {
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
     text-align: left;
     margin: auto;
@@ -82,20 +82,91 @@ padding: 0;
     margin: 10px;
 }
 
-.table {
-
+.tablecenter {
+    margin-left: auto;
+  margin-right: auto;
 }
 
 
-
-.courses {
-
+.Table h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
 }
 
-.Interests {
-
+.Table th {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
 }
 
-.education {
+.Table td {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
 
+.Courses {
+    margin: 0px;
+}
+
+.Courses h1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.Courses h2 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin: auto;
+}
+
+.Courses ul {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin: 10px;
+}
+
+
+.Interests h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+    
+.Interests h2 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin: auto;
+}
+
+
+.Education h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.Education h2 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+    text-align: left;
+    margin: auto;
+}
+
+.Education ul {
+    text-align: left;
+    font-size: 24px;
 }
